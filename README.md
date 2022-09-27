@@ -2,7 +2,7 @@
 
   <h1><code>skyrim-cell-dump-wasm</code></h1>
 
-<strong>Exports the <code>process_plugin</code> function from the <a href="https://github.com/thallada/skyrim-cell-dump">skyrim-cell-dump</a> Rust library in WebAssembly using <a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a>.</strong>
+<strong>Exports the <code>parse_plugin</code> function from the <a href="https://github.com/thallada/skyrim-cell-dump">skyrim-cell-dump</a> Rust library in WebAssembly using <a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a>.</strong>
 
 </div>
 
