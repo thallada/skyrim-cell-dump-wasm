@@ -6,7 +6,7 @@ use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
 pub fn parse_plugin(input: &[u8]) -> JsValue {
-    JsValue::from_serde(&skyrim_cell_dump::parse_plugin(input).unwrap()).unwrap()
+    serde_wasm_bindgen::to_value(&skyrim_cell_dump::parse_plugin(input).unwrap()).unwrap()
 }
 
 #[wasm_bindgen]
